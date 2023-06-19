@@ -1,0 +1,61 @@
+/* Place your CSS styles in this file */
+* {
+    margin: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+}
+
+section {
+    padding: 30px 10px;
+}
+
+.red-text {
+    color: #fbb;
+}
+
+.nav {
+    clear: both;
+    overflow: auto;
+}
+
+.main-nav {
+    background-color: white;
+}
+
+.tutorial-nav {
+    background-color: rgb(1, 0, 40);
+}
+.tutorial-nav a {
+    color: white;
+}
+
+.nav a{
+    display: block;
+    float: left;
+    margin: 0px 10px;
+    text-decoration: none;
+}
+
+section.dark {
+    background-color: rgb(1, 0, 40);
+    color: white;
+    text-align: center;
+}
+
+section.dark a {
+    color:white;
+}
+
+h1 {
+    font-size: 2em;
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: center;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 0.7em;
+}
